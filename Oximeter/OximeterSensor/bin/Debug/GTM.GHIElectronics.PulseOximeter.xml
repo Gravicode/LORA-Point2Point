@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GTM.GHIElectronics.PulseOximeter</name>
+    </assembly>
+    <members>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.PulseOximeter">
+            <summary>A PulseOximeter module for Microsoft .NET Gadgeteer</summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.PulseOximeter.#ctor(System.Int32)">
+            <summary>Constructs a new instance.</summary>
+            <param name="socketNumber">The socket that this module is plugged in to.</param>
+        </member>
+        <member name="E:Gadgeteer.Modules.GHIElectronics.PulseOximeter.Heartbeat">
+            <summary>Raised when the module detects a heartbeat.</summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.GHIElectronics.PulseOximeter.ProbeAttached">
+            <summary>Raised when the module detects that the probe is placed on a finger.</summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.GHIElectronics.PulseOximeter.ProbeDetached">
+            <summary>Raised when the module detects that the probe is removed from a finger.</summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.PulseOximeter.IsProbeAttached">
+            <summary>Whether the PulseOximeter's probe is attached to a finger.</summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.PulseOximeter.LastReading">
+            <summary>The most recent valid reading from the pulse oximeter</summary>
+        </member>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.PulseOximeter.HeartbeatEventHandler">
+            <summary>Represents the delegate used for the Heartbeat event.</summary>
+            <param name="sender">The object that raised the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.PulseOximeter.ProbeAttachedEventHandler">
+            <summary>Represents the delegate used for the ProbeAttached event.</summary>
+            <param name="sender">The object that raised the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.PulseOximeter.ProbeDetachedEventHandler">
+            <summary>Represents the delegate used for the ProbeDetached event.</summary>
+            <param name="sender">The object that raised the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.PulseOximeter.Reading">
+            <summary>A class representing a pulse oximeter reading</summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.PulseOximeter.Reading.PulseRate">
+            <summary>The pulse rate automatically averaged over time.</summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.PulseOximeter.Reading.SPO2">
+            <summary>The oxygen saturation between 0 and 100.</summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.PulseOximeter.Reading.SignalStrength">
+            <summary>The signal strength between 0 and 15.</summary>
+        </member>
+    </members>
+</doc>

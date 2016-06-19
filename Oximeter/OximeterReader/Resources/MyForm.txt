@@ -1,0 +1,15 @@
+
+<Glide Version="1.0.7">
+  <Window Name="instance115" Width="800" Height="480" BackColor="94b8b8">
+    <TextBlock Name="instance487" X="20" Y="13" Width="700" Height="70" Alpha="255" Text="Oximeter Reader" TextAlign="Left" TextVerticalAlign="Top" Font="8" FontColor="FFFFFF" BackColor="94b8b8" ShowBackColor="False"/>
+    <TextBlock Name="instance20540" X="25" Y="84" Width="600" Height="32" Alpha="255" Text="Reading data from oximeter remotely with LORA" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="FFFFFF" BackColor="000000" ShowBackColor="False"/>
+    <TextBlock Name="txtStatus" X="25" Y="122" Width="600" Height="32" Alpha="255" Text="LORA Status :" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="FFFFFF" BackColor="000000" ShowBackColor="False"/>
+    <TextBlock Name="txtLora" X="25" Y="159" Width="600" Height="32" Alpha="255" Text="Data Received :" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="FFFFFF" BackColor="000000" ShowBackColor="False"/>
+    <TextBlock Name="txtSPO2" X="25" Y="201" Width="600" Height="32" Alpha="255" Text="SPO2 :" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="FFFFFF" BackColor="000000" ShowBackColor="False"/>
+    <TextBlock Name="txtSignal" X="25" Y="239" Width="600" Height="32" Alpha="255" Text="Signal :" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="FFFFFF" BackColor="000000" ShowBackColor="False"/>
+    <TextBlock Name="txtPulseRate" X="25" Y="275" Width="700" Height="30" Alpha="255" Text="Pulse Rate :" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="FFFFFF" BackColor="000000" ShowBackColor="False"/>
+    <Button Name="btnTest" X="25" Y="410" Width="120" Height="50" Alpha="255" Text="Click Me!" Font="5" FontColor="000000" DisabledFontColor="808080" TintColor="000000" TintAmount="0"/>
+    <TextBlock Name="txtDesc" X="25" Y="316" Width="750" Height="65" Alpha="255" Text="Description :" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="FFFFFF" BackColor="000000" ShowBackColor="False"/>
+    <Image Name="img1" X="0" Y="0" Width="800" Height="480" Alpha="255"/>
+  </Window>
+</Glide>
