@@ -58,13 +58,22 @@
     <Reference Include="Gadgeteer.Serial, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="GHI.Glide, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="GHI.Hardware, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="GHI.Pins, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="GHIElectronics.Gadgeteer.FEZSpiderII, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gadgeteer.SPI, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="GTM.GHIElectronics.LightSense, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gadgeteer.WebClient, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Gadgeteer.WebServer, Version=2.43.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GHI.Glide, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="GHI.Hardware, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="GHI.Networking, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GHI.Pins, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="GHIElectronics.Gadgeteer.FEZSpiderII, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="GTM.GHIElectronics.PulseOximeter, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL">
@@ -74,6 +83,9 @@
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="GTM.GHIElectronics.VideoOut, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GTM.GHIElectronics.WiFiRS21, Version=4.3.8.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="Json.NetMF">
@@ -86,6 +98,7 @@
     <Reference Include="Microsoft.SPOT.Net" />
     <Reference Include="Microsoft.SPOT.TinyCore" />
     <Reference Include="mscorlib" />
+    <Reference Include="System" />
     <Reference Include="System.IO" />
   </ItemGroup>
   <ItemGroup>

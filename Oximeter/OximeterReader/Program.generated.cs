@@ -24,9 +24,6 @@ namespace OximeterReader {
         /// <summary>The Multicolor LED module using socket 11 of the mainboard.</summary>
         private Gadgeteer.Modules.GHIElectronics.MulticolorLED multicolorLED;
         
-        /// <summary>The Breakout TB10 module using socket 9 of the mainboard.</summary>
-        private Gadgeteer.Modules.GHIElectronics.BreakoutTB10 breakoutTB10;
-        
         /// <summary>The USB Host module using socket 6 of the mainboard.</summary>
         private Gadgeteer.Modules.GHIElectronics.USBHost usbHost;
         
@@ -55,7 +52,6 @@ namespace OximeterReader {
             this.displayNHVN = new GTM.GHIElectronics.DisplayNHVN(15, 16, 17, Socket.Unused, Socket.Unused);
             this.usbClientEDP = new GTM.GHIElectronics.USBClientEDP(8);
             this.multicolorLED = new GTM.GHIElectronics.MulticolorLED(11);
-            this.breakoutTB10 = new GTM.GHIElectronics.BreakoutTB10(9);
             this.usbHost = new GTM.GHIElectronics.USBHost(6);
         }
     }

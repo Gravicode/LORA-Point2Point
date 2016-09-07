@@ -18,14 +18,14 @@ namespace OximeterSensor {
         /// <summary>The USB Client EDP module using socket 1 of the mainboard.</summary>
         private Gadgeteer.Modules.GHIElectronics.USBClientEDP usbClientEDP;
         
-        /// <summary>The VideoOut module using sockets 14, 13, 12 and 6 of the mainboard.</summary>
+        /// <summary>The VideoOut module using sockets 14, 13, 12 and 10 of the mainboard.</summary>
         private Gadgeteer.Modules.GHIElectronics.VideoOut videoOut;
-        
-        /// <summary>The LightSense module using socket 9 of the mainboard.</summary>
-        private Gadgeteer.Modules.GHIElectronics.LightSense lightSense;
         
         /// <summary>The PulseOximeter module using socket 4 of the mainboard.</summary>
         private Gadgeteer.Modules.GHIElectronics.PulseOximeter pulseOximeter;
+        
+        /// <summary>The WiFi RS21 module using socket 6 of the mainboard.</summary>
+        private Gadgeteer.Modules.GHIElectronics.WiFiRS21 wifiRS21;
         
         /// <summary>This property provides access to the Mainboard API. This is normally not necessary for an end user program.</summary>
         protected new static GHIElectronics.Gadgeteer.FEZSpiderII Mainboard {
@@ -50,9 +50,9 @@ namespace OximeterSensor {
         
         private void InitializeModules() {
             this.usbClientEDP = new GTM.GHIElectronics.USBClientEDP(1);
-            this.videoOut = new GTM.GHIElectronics.VideoOut(14, 13, 12, 6);
-            this.lightSense = new GTM.GHIElectronics.LightSense(9);
+            this.videoOut = new GTM.GHIElectronics.VideoOut(14, 13, 12, 10);
             this.pulseOximeter = new GTM.GHIElectronics.PulseOximeter(4);
+            this.wifiRS21 = new GTM.GHIElectronics.WiFiRS21(6);
         }
     }
 }

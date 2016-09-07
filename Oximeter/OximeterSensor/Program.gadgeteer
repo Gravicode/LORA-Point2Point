@@ -7,7 +7,7 @@
           <moduleHasSocketUses Id="13c78814-8cd5-4f13-8292-86d59bf8c54c">
             <socketUse Id="cb22730d-8719-4a9e-9c7b-b9dcd5222875" label="D">
               <socket>
-                <socketUseReferencesSocket Id="2ebc9e04-7b00-4163-a25d-e0a0ebb2d9c3">
+                <socketUseReferencesSocket Id="89823ef9-65d1-4e0f-8f0c-2479d970ea5a">
                   <socketMoniker Id="ec3adf62-94f1-4e06-8f27-42739e5b5405" />
                 </socketUseReferencesSocket>
               </socket>
@@ -22,7 +22,7 @@
           <moduleHasSocketUses Id="d02f3941-c1f3-49ec-b21c-d0bebd4da06c">
             <socketUse Id="ee3d6169-98fe-44c9-b746-3a34b57be6e9" label="R">
               <socket>
-                <socketUseReferencesSocket Id="5ffef6f4-4bae-46ba-86f1-2717ffeea09f">
+                <socketUseReferencesSocket Id="2de9db8b-b43d-4030-b7bb-d1e3e26c613a">
                   <socketMoniker Id="3c78c8d8-6a75-4c1c-aee5-817452e85be9" />
                 </socketUseReferencesSocket>
               </socket>
@@ -31,7 +31,7 @@
           <moduleHasSocketUses Id="4e02b91e-c1ab-47c4-b277-04aec4e54f5b">
             <socketUse Id="95e188a8-b53c-4a6c-a795-96ef73033584" label="G">
               <socket>
-                <socketUseReferencesSocket Id="24871fb0-2d6c-497b-a087-f02d77a4c5e2">
+                <socketUseReferencesSocket Id="6eee8106-b5bd-484d-ac28-62a563d9cc08">
                   <socketMoniker Id="30a4726a-9953-4a18-ae12-36976fc214ba" />
                 </socketUseReferencesSocket>
               </socket>
@@ -40,7 +40,7 @@
           <moduleHasSocketUses Id="4fd3c910-20ec-40d0-b2d5-be6db1f22e04">
             <socketUse Id="6b8f75a6-256f-4933-b6b9-ec1cb8d60dc4" label="B">
               <socket>
-                <socketUseReferencesSocket Id="a2e57520-1606-480a-985c-8294da8c5629">
+                <socketUseReferencesSocket Id="9d7c6b2b-339d-4ff1-b8d4-56c77ed9126a">
                   <socketMoniker Id="57fcc14e-e5d5-42f8-9b00-7d23671c2b55" />
                 </socketUseReferencesSocket>
               </socket>
@@ -49,23 +49,8 @@
           <moduleHasSocketUses Id="238a7dd8-e350-47be-8e46-79e21b03caf9">
             <socketUse Id="ed50812c-768d-4d89-8015-633547fd9cbd" label="XY">
               <socket>
-                <socketUseReferencesSocket Id="aea77482-68ef-46b5-8779-a598d61587da">
-                  <socketMoniker Id="5107b451-2666-452b-9f6a-b71367a9b8f9" />
-                </socketUseReferencesSocket>
-              </socket>
-            </socketUse>
-          </moduleHasSocketUses>
-        </socketUses>
-      </module>
-    </gadgeteerModelHasGadgeteerHardware>
-    <gadgeteerModelHasGadgeteerHardware Id="b4080d70-dce2-4efe-b1c9-0a13d87782b4">
-      <module Id="f8cf7362-670e-4f7a-9d3c-e70f7478a595" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;LightSense&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A LightSense module&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.LightSense&quot; HardwareVersion=&quot;1.2&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\.NET Gadgeteer SDK\Modules\LightSense\Image.jpg&quot; BoardWidth=&quot;17&quot; BoardHeight=&quot;22&quot; MinimumGadgeteerCoreVersion=&quot;2.43.800&quot; HelpUrl=&quot;http://www.ghielectronics.com/catalog/product/336&quot; UniqueId=&quot;eae507ea-a1ff-4156-971b-4ab19cd3c8ca&quot; InstanceName=&quot;lightSense&quot; ModuleSuppliesPower=&quot;false&quot;&gt;&#xD;&#xA;  &lt;Power&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;3.3&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0.001&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0.001&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;5&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;  &lt;/Power&gt;&#xD;&#xA;  &lt;ProvidedSockets /&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GTM.GHIElectronics.LightSense&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;GTM.GHIElectronics.LightSense&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;90&quot; Left=&quot;7.5&quot; Top=&quot;17.3&quot; TypesLabel=&quot;A&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;A&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired /&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="lightSense" moduleType="Gadgeteer.Modules.GHIElectronics.LightSense" moduleDefinitionId="eae507ea-a1ff-4156-971b-4ab19cd3c8ca">
-        <socketUses>
-          <moduleHasSocketUses Id="d57d6f1a-590a-4a6b-8c92-f97cffb33b65">
-            <socketUse Id="3d949953-5460-482a-b18c-72aedf140bef" label="A">
-              <socket>
-                <socketUseReferencesSocket Id="73007d97-e6f9-4847-9e53-077b891e7d5d">
-                  <socketMoniker Id="32861041-c55e-4e96-88a1-ee268d59d8c1" />
+                <socketUseReferencesSocket Id="78672f92-3dd6-4b65-8997-d9b00a8403c8">
+                  <socketMoniker Id="8b8491f2-4920-423f-ba7b-a8e442b590e2" />
                 </socketUseReferencesSocket>
               </socket>
             </socketUse>
@@ -127,8 +112,23 @@
           <moduleHasSocketUses Id="7f367f31-a398-47ef-9b7f-54e28e033a87">
             <socketUse Id="89cb5c14-fb5b-4a3e-981b-5b4eaffbab0a" label="U">
               <socket>
-                <socketUseReferencesSocket Id="a7a35081-3b9a-435e-add2-c7838d176f5d">
+                <socketUseReferencesSocket Id="6a5e96c2-2212-4344-9e30-fcfee0ea4cd9">
                   <socketMoniker Id="c62af9c1-2342-4c5d-abf3-38681457bfd9" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+        </socketUses>
+      </module>
+    </gadgeteerModelHasGadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="7c7032fa-4ca7-4738-800c-ffd28ce64360">
+      <module Id="cc0302a8-c587-4417-bed1-099c512b8ef8" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;WiFi RS21&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A WiFiRS21 module&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.WiFiRS21&quot; HardwareVersion=&quot;1.0&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\.NET Gadgeteer SDK\Modules\WiFiRS21\Image.jpg&quot; BoardWidth=&quot;44&quot; BoardHeight=&quot;42&quot; MinimumGadgeteerCoreVersion=&quot;2.43.800&quot; HelpUrl=&quot;http://www.ghielectronics.com/catalog/product/282&quot; UniqueId=&quot;6c73904a-8e11-44e9-8cae-77b48d2b0c6b&quot; InstanceName=&quot;wifiRS21&quot; ModuleSuppliesPower=&quot;false&quot;&gt;&#xD;&#xA;  &lt;Power&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;3.3&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0.04&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0.09&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;5&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;  &lt;/Power&gt;&#xD;&#xA;  &lt;ProvidedSockets /&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GTM.GHIElectronics.WiFiRS21&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;GTM.GHIElectronics.WiFiRS21&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;Gadgeteer.SPI&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;Gadgeteer.WebClient&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;Gadgeteer.WebServer&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;Gadgeteer.SPI&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;Gadgeteer.WebClient&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;Gadgeteer.WebServer&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GHI.Premium.Net&quot; ErrorMessage=&quot;GHI.Premium.Net could not be found.&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;GHI.Networking&quot; ErrorMessage=&quot;GHI.Networking could not be found.&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;39.75&quot; Top=&quot;20.62&quot; TypesLabel=&quot;S&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;S&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;true&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;true&quot;&gt;8&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;true&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GHI.Premium.Net&quot; ErrorMessage=&quot;GHI.Premium.Net could not be found.&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;GHI.Networking&quot; ErrorMessage=&quot;GHI.Networking could not be found.&quot; /&gt;&#xD;&#xA;  &lt;/ExtraLibrariesRequired&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="wifiRS21" moduleType="Gadgeteer.Modules.GHIElectronics.WiFiRS21" moduleDefinitionId="6c73904a-8e11-44e9-8cae-77b48d2b0c6b">
+        <socketUses>
+          <moduleHasSocketUses Id="905dd15a-9bf5-43c7-bf62-868cf3c0953f">
+            <socketUse Id="0a55e4c5-cf2a-4351-947d-6019661374da" label="S">
+              <socket>
+                <socketUseReferencesSocket Id="79711c14-e913-4ca7-879a-ff9b9c91fe4a">
+                  <socketMoniker Id="5107b451-2666-452b-9f6a-b71367a9b8f9" />
                 </socketUseReferencesSocket>
               </socket>
             </socketUse>
